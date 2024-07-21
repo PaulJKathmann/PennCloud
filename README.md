@@ -23,4 +23,4 @@ The key features which our cloud service provides are as follows:
 <img width="1003" alt="image" src="https://github.com/user-attachments/assets/8f1a44f2-b671-47b9-8353-8c22b03a9059">
 
 ## Full Report:
-For more details check out the full report: 
+For more details check out the full report [here](files/PennCLoud_Report.pdf)
