@@ -7,13 +7,13 @@ Email Servers, and an Admin Console, all interconnected using gRPC for efficient
 
 ## Key Features
 The key features which our cloud service provides are as follows:
-• User Signup/Login Provides the interface for new users to signup and existing users to login. Login authentication is implemented here.
-• Drive Storage
-– A web storage service that is a Google Drive miniclone, with functionality for uploading, downloading, moving, deleting and renaming files as well as folders.
-– Our implementation supports nested folder structures, files well above 50 MB in both binary and text formats, as well as the ability to rename nested files and folders.
-• Front-end Load Balancer Balances the load and appropriately routes the requests from clients that connect to the systemto any of the 4 frontend servers. It directs the incoming requests to the Front End Server + Controller.
-• Front-end Server + Controller This node contains all the https endpoints that the client can call (e.g. GET /login, GET /home, POST /data. . . ), as well as the controller logic of how to handle these requests.
-• Backend-end Master/Load Balancer Acts as a load balancer for the KV stores, and provides an interface to access the status of the KV nodes from the frontend/admin console.
-• Key-Value Store Stores and returns data in key-value format similar to Google Bigtable(Chang et al., 2008).
+1. User Signup/Login Provides the interface for new users to signup and existing users to login. Login authentication is implemented here.
+2. Drive Storage:
+   - A web storage service that is a Google Drive miniclone, with functionality for uploading, downloading, moving, deleting and renaming files as well as folders.
+   - Our implementation supports nested folder structures, files well above 50 MB in both binary and text formats, as well as the ability to rename nested files and folders.
+4. Front-end Load Balancer Balances the load and appropriately routes the requests from clients that connect to the systemto any of the 4 frontend servers. It directs the incoming requests to the Front End Server + Controller.
+5. Front-end Server + Controller This node contains all the https endpoints that the client can call (e.g. GET /login, GET /home, POST /data. . . ), as well as the controller logic of how to handle these requests.
+4. Backend-end Master/Load Balancer Acts as a load balancer for the KV stores, and provides an interface to access the status of the KV nodes from the frontend/admin console.
+5. Key-Value Store Stores and returns data in key-value format similar to Google Bigtable(Chang et al., 2008).
 
 
