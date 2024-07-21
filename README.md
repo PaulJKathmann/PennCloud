@@ -5,6 +5,9 @@ The PennCloud system is designed to provide a robust and scalable cloud service,
 and isolation. Key components include Front-end Servers, Front-end Load Balancer, Backend KV Stores, Backend Master/Load Balancer,
 Email Servers, and an Admin Console, all interconnected using gRPC for efficient, language-agnostic communication.
 
+## Code
+Due to course policies I cannot openly publish the source code, however if you're interested in the implementation please contact me directly and I can share the code with you.
+
 ## Key Features
 The key features which our cloud service provides are as follows:
 1. User Signup/Login Provides the interface for new users to signup and existing users to login. Login authentication is implemented here.
@@ -16,4 +19,6 @@ The key features which our cloud service provides are as follows:
 4. Backend-end Master/Load Balancer Acts as a load balancer for the KV stores, and provides an interface to access the status of the KV nodes from the frontend/admin console.
 5. Key-Value Store Stores and returns data in key-value format similar to Google Bigtable(Chang et al., 2008).
 
+## Architecture
+<img width="1003" alt="image" src="https://github.com/user-attachments/assets/8f1a44f2-b671-47b9-8353-8c22b03a9059">
 
